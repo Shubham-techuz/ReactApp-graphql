@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* height: 100%;
+    background-color: red; */
+}
+.mutation {
+    color: #777;
+    background: black;
+    position: relative;
+    height: 100vh;
+}
+.container{
+    background: #F9F9F9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 400px;
+}
+.formContainer {
+    background: yellow;
+    padding: 25px;
+}
