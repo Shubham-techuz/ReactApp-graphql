@@ -1,0 +1,53 @@
+  .heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .isError {
+    color: red;
+  }
+  .table_container {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+  }
+  table, td, th {
+    border: 1px solid;
+  }
+  .table_heading {
+    background: blanchedalmond;
+    text-transform: capitalize;
+  }
+  .button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button_create {
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 123px;
+
+  }
+  .button_update {
+    background-color: yellow;
+    width: 123px;
+  }
+  .button_delete {
+    background-color: red;
+    width: 123px;
+  }
+  
